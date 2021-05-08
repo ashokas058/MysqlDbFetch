@@ -5,6 +5,6 @@ AsynRcv will receive web response and converted to **JsonArray>jsonObject>ModelO
 currently the Ui will receive one object value on textView as configured.
   
   <p align="center">
-<img src="https://github.com/ashokas058/MysqlDbFetch/blob/master/Screenshot/Screenshot_2021-05-09-03-33-23-483_com.ashokas.userprofileui.jpg"
+<img width="640" src="https://github.com/ashokas058/MysqlDbFetch/blob/master/Screenshot/Screenshot_2021-05-09-03-33-23-483_com.ashokas.userprofileui.jpg"
   alt="Home UI">
 </p>
