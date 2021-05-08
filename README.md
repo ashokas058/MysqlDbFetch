@@ -1,7 +1,11 @@
 # MysqlDbFetch
-For fetching MySQL table data to JSON . It having two class AsynSend and AsynRcv
+For fetching MySQL table data to JSON . 
 <br/>
-Both class extended By AsyncTask class of Android .So the task will perform in seperate thread. UI wont afected.
+It having two class AsynSend and AsynRcv.
+<br/>
+Both class extends By AsyncTask class of Android .So that the task will perform in seperate thread.
+UI wont afected.
+<br/>
 one for sending data to the (youweb.com/insert.php ) MysqlDb.
 <br/>
 AsynRcv will receive web response and converted it to **JsonArray>jsonObject>ModelObject(Person-project)> finally ArrayList<Person>.**
