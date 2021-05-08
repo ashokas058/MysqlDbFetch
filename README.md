@@ -17,6 +17,6 @@ AsynRcv will receive web response and converted it to **JsonArray>jsonObject>Mod
 </p>
   
   <p align="center">
-<img width="360" src="https://github.com/ashokas058/MysqlDbFetch/blob/master/Screenshot/Screenshot_2021-05-09-03-33-23-483_com.ashokas.userprofileui.jpg"
+<img width="160" src="https://github.com/ashokas058/MysqlDbFetch/blob/master/Screenshot/Screenshot_2021-05-09-03-33-23-483_com.ashokas.userprofileui.jpg"
   alt="Home UI">
 </p>
