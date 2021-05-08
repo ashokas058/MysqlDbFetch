@@ -6,8 +6,10 @@ AsynRcv will receive web response and converted it to **JsonArray>jsonObject>Mod
 **Currently the Ui will receive one object value on textView as configured**
  
   <br/>
-  **Works over WAN network.** <hr/>
+  Works over **WAN** network.
+   <br/>
   Protocol- **https**
+  <hr/>
   
    <p align="center">
 <img  src="https://github.com/ashokas058/MysqlDbFetch/blob/master/Screenshot/personModel_table.png"
