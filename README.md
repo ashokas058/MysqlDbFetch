@@ -1,8 +1,7 @@
 # MysqlDbFetch
 For fetching MySQL table data to Android  
+[Project Main Directory](https://github.com/ashokas058/MysqlDbFetch/tree/master/app/src/main/java/com/ashokas/userprofileui)
 <hr/>
-[Project Main Directory] (https://github.com/ashokas058/MysqlDbFetch/tree/master/app/src/main/java/com/ashokas/userprofileui)
-<br/>
 It having two class AsynSend and AsynRcv.
 <br/>
 Both class extends By AsyncTask class of Android .So that the task will perform in seperate thread.
