@@ -6,8 +6,8 @@
 
 
 $host = 'localhost';
-$user = 'id11297169_shome';
-$pass_db = 'U6k#~U%Cs+}\szG)';
+$user = 'id11297169_DbUsername';
+$pass_db = 'yourDbPass';
 $conn=mysqli_connect($host, $user, $pass_db,$user);
 $sql_tst = "SELECT * FROM person";
 $result=mysqli_query($conn,$sql_tst );
