@@ -10,8 +10,8 @@ $SYSDATE=urldecode($_POST['SYSDATE']);
 
 
 $host = 'localhost';
-$user = 'id11297169_shome';
-$pass_db = 'U6k#~U%Cs+}\szG)';
+$user = 'id11297169';
+$pass_db = 'U6k#';
 $conn=mysqli_connect($host, $user, $pass_db,$user);
 
 $dologin = "select id,pass from user where id = $id and pass = $pass ";
