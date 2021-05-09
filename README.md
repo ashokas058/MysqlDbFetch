@@ -1,5 +1,5 @@
 # MysqlDbFetch
-For fetching MySQL table data to Android  
+For fetching MySQL table data to Android -Simple Example 
 [Project Main Directory](https://github.com/ashokas058/MysqlDbFetch/tree/master/app/src/main/java/com/ashokas/userprofileui)
 <br/>
 [PHPFile-INSERT](https://github.com/ashokas058/MysqlDbFetch/blob/master/Php/PhpInsert.php)
