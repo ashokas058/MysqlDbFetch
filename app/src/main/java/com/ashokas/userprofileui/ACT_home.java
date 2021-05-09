@@ -42,7 +42,7 @@ TextView personLongList;
     void sendWebData(){
         //go to AsyncSend class change the web url and Parameter ..tis data based the current parameter.
         AsyncSend asyncSend=new AsyncSend();
-        asyncSend.execute("25/05201","9.00pm","27/04/36","india,Kerala,Kollam,Anchal","9048210700","Ashok");
+        asyncSend.execute("Ashok","ashoks.crypt@gmail.com","PEC");
     }
     /*This method setDataFrmWeb is implimenter using IresultData interface. you can at top implimentation.
     setDataFrmWeb() get data from AsyncRCV class . from this class/activity we send refernce(Context) of this class to AsyncRCV class using calling method initLoadWeb()
