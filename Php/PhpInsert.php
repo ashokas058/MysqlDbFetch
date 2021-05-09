@@ -1,22 +1,17 @@
 <?php
 
 
-$C_LOGID=urldecode($_POST['C_LOGID']);
-$C_DATE=urldecode($_POST['C_DATE']);
-$C_TIME=urldecode($_POST['C_TIME']);
-$C_MOBILE=urldecode($_POST['C_MOBILE']);
-$C_GIOTAG=urldecode($_POST['C_GIOTAG']);
-$SYSDATE=urldecode($_POST['SYSDATE']);
-
+$C_NAME=urldecode($_POST['C_NAME']);
+$C_EMAIL=urldecode($_POST['C_EMAIL']);
+$C_COLLEGE=urldecode($_POST['C_COLLEGE']);
 
 $host = 'localhost';
-$user = 'id11297169';
+$user = 'id117169';
 $pass_db = 'U6k#';
 $conn=mysqli_connect($host, $user, $pass_db,$user);
 
 $dologin = "select id,pass from user where id = $id and pass = $pass ";
-$insert=INSERT INTO `call_record`(`id`, `c-logid`, `c-date`, `c-time`, `c-giotag`, `c-number`, `c-sysdate`, `c-verified`) 
-VALUES (null,$C_LOGID,$C_DATE,$C_TIME,$C_GIOTAG,$C_MOBILE,$SYSDATE,null);
+$insert=INSERT INTO `Person`(`id`, `name`, `email`, `college`)VALUES (null,$C_NAME,$C_EMAIL,$C_COLLEE);
 if(mysqli_query($conn,$insert ))
 echo "sucess";
 
