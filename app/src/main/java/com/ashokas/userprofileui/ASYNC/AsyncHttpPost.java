@@ -22,9 +22,9 @@ public class AsyncHttpPost extends AsyncTask<Void,Void,String> {
     StringBuilder tableDataBuilder;
     OnMysqlTableListener onMysqlTableListener;
     JSONArray jsonArray;
-    String queryCode;
+    int queryCode;
 
-    public AsyncHttpPost(String webUrl, String encoded, OnMysqlTableListener onMysqlTableListener, String queryCode) {
+    public AsyncHttpPost(String webUrl, String encoded, OnMysqlTableListener onMysqlTableListener, int queryCode) {
         this.webUrl = webUrl;
         this.encoded = encoded;
         this.onMysqlTableListener = onMysqlTableListener;

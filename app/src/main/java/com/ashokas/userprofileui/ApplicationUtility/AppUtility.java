@@ -12,6 +12,10 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class AppUtility extends Application {
+    public  static final String PERSON_DETAILS_URL="https://shomekerala.000webhostapp.com/phpselect.php";
+    public  static final int PERSON_DETAILS_CODE=11;
+    public  static final int COLLEGE_DETAILS_CODE=12;
+
     @Override
     public void onCreate() {
         super.onCreate();
