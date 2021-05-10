@@ -1,6 +1,6 @@
 package com.ashokas.userprofileui.DATAMODEL;
 
-public class Person {
+public class PersonDetails {
     String id,name,email,college;
 
     public String getId() {
@@ -35,7 +35,7 @@ public class Person {
         this.college = college;
     }
 
-    public Person(String id, String name, String email, String college) {
+    public PersonDetails(String id, String name, String email, String college) {
         this.id = id;
         this.name = name;
         this.email = email;
