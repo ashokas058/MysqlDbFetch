@@ -33,8 +33,9 @@ public class AsyncHttpPost extends AsyncTask<Void,Void,String> {
 
     @Override
     protected String doInBackground(Void... voids) {
+        tableDataBuilder=new StringBuilder();
         try {
-            tableDataBuilder=new StringBuilder();
+
             URL url=new URL(webUrl);
             HttpURLConnection urlConnection=(HttpURLConnection) url.openConnection();
             OutputStreamWriter mySqlTableWriter=new OutputStreamWriter(urlConnection.getOutputStream());

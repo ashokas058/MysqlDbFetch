@@ -26,7 +26,6 @@ TextView txtViewPersonDetails;
         initRcvWebData();
 
     }
-
     private void initTextView() {
         txtViewPersonDetails = findViewById(R.id.tag_mainact_person_txtvw);
     }
